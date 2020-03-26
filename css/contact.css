@@ -1,0 +1,123 @@
+html {
+    color: #676a6c;
+    font-family: 'Open Sans', helvetica, arial, sans-serif;
+    font-size: 10px;
+    min-width: 1100px;
+    overflow-x: hidden;
+}
+header .header-back{
+    background: url('../images/contact2.jpg') 50% 0 no-repeat;
+    background-size: cover;
+}
+/*.navbar-default .nav li a{*/
+    /*color:#000;*/
+/*}*/
+.navbar_wrapper .hd>ul>li{
+	  display: -ms-inline-flexbox;
+    display: inline-block;
+    width: 25%;
+    -ms-flex: 1;
+    flex: 1;
+    box-sizing: content-box;
+    padding: 0;
+    cursor: pointer;
+}
+.navbar_wrapper .hd>ul .on{
+    height: 60px;
+    color: #3399e5;
+    border-bottom: 3px solid #51bff8;
+}
+.navbar_wrapper .hd>ul>li>a{
+    color: #000000;
+    font-size: 16px;
+    padding: 5% 5%;
+}
+.navbar_wrapper .hd>ul>li>a:hover{
+    color: #3399e5;
+}
+div#1F,div#2F,div#3F,div#4F{
+    height: 60px!important;
+    overflow: hidden;
+    background-color: transparent;
+}
+.main-body>.pro_model1{
+    margin-top: 60px;
+}
+/*.model_title h1 {*/
+    /*text-align: center;*/
+    /*color:#fff;*/
+    /*background: #555;*/
+    /*line-height: 50px;*/
+/*}*/
+.main-body>.pro_model1>.layout>.model_title{
+    margin-bottom: 50px;
+    height: auto;
+}
+.main-body>.pro_model1>.layout>.model_title>h3{
+    margin: 20px 0 10px;
+    line-height: 26px;
+    height: 26px;
+}
+.main-body>.pro_model1>.layout>.model_title>.line{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 70px;
+    height: 3px;
+    margin-top: 10px;
+    background: #3399e5;
+}
+.main-body>.pro_model1>.layout>.model_context>p{
+    font-size: 0.9rem;
+    text-align: left;
+}
+.main-body>.pro_model1>.layout>.contact_us>.contact_item{
+    margin:20px 0  40px 0;
+    border: 1px solid #dddee3;
+    width: 100%;
+    height: 305px;
+    position: relative;
+}
+.main-body>.pro_model1>.layout>.contact_us>.contact_item>.contact_detail{
+    width: 50%;
+    padding: 60px 10px;
+    text-align: left;
+    box-sizing: border-box;
+}
+.main-body>.pro_model1>.layout>.contact_us>.contact_item>.contact_detail>.contact_desc{
+    font-size: 1.5rem;
+    color: red;
+    height: 50px;
+    margin-bottom: 20px; 
+}
+.main-body>.pro_model1>.layout>.contact_us>.contact_item>.contact_detail>p{
+    color:#666;
+    font-size: 14px;
+    height: 18px;
+    margin-bottom: 6px;
+}
+.contact_item>.contact_map{
+    float: left;
+    width: 50%;
+    height: 100%;   
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+footer{
+    padding-bottom: 30px;
+}
+footer h3{
+    margin-bottom: 20px;
+}
+footer img{
+    width: 150px;
+    height: 150px;
+}
+.main-body i{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-size: 5rem;
+    text-shadow: 0 0 2px black;
+}

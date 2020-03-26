@@ -1,0 +1,91 @@
+/*.navbar-wrapper {*/
+	/*position: absolute;*/
+	/*top: 0;*/
+	/*right: 0;*/
+	/*left: 0;*/
+	/*z-index: 2;*/
+/*}*/
+/*.navbar-wrapper .navbar-default.navbar-scroll li a{*/
+	/*color: #327dd1;*/
+/*}*/
+.navbar-wrapper .header-logo{
+	background: url(../images/head_logo.png) no-repeat 50%;
+	width: 100px;
+	height: 100px;
+	background-size: contain;
+}
+.navbar-wrapper .navbar-default.navbar-fixed-top.navbar .container .navbar-nav li a:hover{
+	color: red;
+}
+.navbar-wrapper > .container {
+	padding-right: 0;
+	padding-left: 0;
+	z-index: 10;
+}
+.navbar-wrapper > .container >div.navbar-header.page-scroll{
+	width: 147px;
+	height: 50px;
+}
+.navbar-wrapper .navbar {
+	padding-right: 15px;
+	padding-left: 15px;
+	z-index: 10;
+}
+.navbar-default.navbar-scroll {
+	background-color: #fff;
+	border-color: #fff;
+	padding: 15px 0;
+}
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+	transition: all 0.3s ease-in-out 0s;
+}
+.navbar-default .nav li a {
+	color: #fff;
+	font-family: 'Open Sans', helvetica, arial, sans-serif;
+	font-weight: 500;
+	letter-spacing: 1px;
+	height: 80px;
+	line-height: 80px;
+	text-transform: uppercase;
+	padding: 0 15px;
+	font-size: 1.5rem;
+}
+.navbar-default .navbar-nav > .active > a,.navbar-default .navbar-nav > .active > a:visited,
+.navbar-default .navbar-nav > .active > a:hover {
+	background: transparent;
+	color: #fff;
+	border-top: 6px solid #1ab394;
+}
+.navbar-default .navbar-nav > .active > a:focus {
+	background: transparent;
+	color: #fff;
+}
+.navbar-default.navbar-scroll .navbar-nav > .active > a:focus {
+	background: transparent;
+	color: inherit;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+	background: #17a185;
+	color: #fff;
+}
+.navbar-default .navbar-brand {
+	color: #fff;
+	height: auto;
+	display: block;
+	font-size: 1rem;
+	background: #f3f3f3;
+	border-radius: 0 0px 5px 5px;
+	font-weight: 700;
+	transition: all 0.3s ease-in-out 0s;
+}
+.header-back {
+	height: 550px;
+	width: 100%;
+}
+.header-back {
+	background: url('../images/background.jpg') 50% 0 no-repeat;
+	background-size: cover;
+}
