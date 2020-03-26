@@ -1,0 +1,37 @@
+footer h2{
+	font-size: 3rem;
+	line-height: 32px;
+}
+footer .footer-nav .block-nav{
+	display: inline-block;
+}
+
+footer .footer-nav .block-nav .nav-title{
+	font-size: 2rem;
+}
+footer .footer-nav .block-nav li{
+	font-size: 1.4rem;
+	line-height: 26px;
+}
+footer .footer-nav .block-nav a{
+	color: #fff;
+}
+footer a:hover{
+	color: blue;
+}
+footer .footer-nav .block-nav li>img{
+	width: 100px;
+	height: 100px;
+	margin: 10px 0;
+}
+footer .beian{
+	background-color: #333;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	font-size: 0.9rem;
+	font-weight: 300;
+}
+
+
+

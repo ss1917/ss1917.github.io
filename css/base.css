@@ -1,0 +1,195 @@
+body,h1,h2,h3,h4,h5,h6,i,p,pre,ul,dl,dd,ol,form,input,th,td,select,strong{
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+body{
+	min-width: 1000px;
+	overflow-x: hidden;
+}
+ol,li,ul,dt,dd{
+	list-style: none;
+}
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img{
+	vertical-align: middle;
+	border: none;
+}
+a {
+	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+	background-color:transparent;
+	outline: none;
+}
+a:hover {
+	text-decoration: none; 
+	outline: none;
+}  
+a:active,a:hover{
+	outline: 0;
+}
+.clearfix::before,.clearfix::after{
+	content: '';
+	display: block;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;	
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix{
+	zoom: 1;
+}
+input,select,option{
+	vertical-align:middle;
+	border-radius:0px;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	appearance:none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	outline: none;
+}
+
+input[type="text"],input[type="button"],input[type="submit"],input[type="reset"]{
+	-webkit-appearance: none;
+	appearance: none;
+	border-radius: 0;
+	outline: none;
+}  
+
+.overflow {
+	overflow:hidden; 
+} 
+
+.lh35{
+	line-height: 35px;
+}
+.mr15{
+	margin-right: 15px;
+}
+/*左外边距10px*/
+.ml10{
+	margin-left: 10px;
+}
+/*右外边距10px*/
+.mr10{
+	margin-right: 10px;
+}
+.mt5{
+	margin-top: 5px;
+}
+.mt10{
+	margin-top: 10px;
+}
+.mr5{
+	margin-right: 5px;
+}
+.mt20{
+	margin-top: 20px;
+}
+.ml20{
+	margin-left: 20px;
+}
+.mb30{
+	margin-bottom: 30px;
+}
+.mb25{
+	margin-bottom: 25px;
+}
+.mb50{
+	margin-bottom: 50px;
+}
+.mb60{
+	margin-bottom: 60px;
+}
+.mt10{
+    margin-top: 10px;
+}
+.mt40{
+    margin-top: 40px;
+}
+.mt60{
+	margin-top: 60px;
+}
+
+.pt10{
+    padding-top: 10px;
+}
+.pt20{
+    padding-top: 20px;
+}
+.pt30{
+    padding-top: 30px;
+}
+.pb20{
+    padding-bottom: 20px;
+}
+.tc{
+	text-align: center;
+}
+.tl{
+    text-align: left;
+}
+.pb40{
+    padding-bottom: 40px;
+}
+.pb80{
+	padding-bottom: 80px;
+}
+
+/*btn-blank样式*/
+.btn-blank:hover,.btn-blank:active{
+	background-color: red;
+	color: rgb(255,255,255);
+	border: 0;
+	border-radius: 5px;
+}
+br{
+	height: 32px;
+}
+/*所有的标题项*/
+
+/*字体：
+ * 12px=0.75rem;
+ * 14px=0.875rem;
+ * 16px=1rem;
+ * 18px=1.1rem;
+ * 20px=1.25rem;
+ * 24px=1.5rem;
+ * */
+.fs12{
+    font-size: 12px;
+}
+.fs22{
+    font-size: 22px;
+}
+.link:hover,.link:active{
+	color: rgb(255,255,255);
+}
+.pr{
+	position: relative;
+}
+.layout{
+	width: 65%;
+	margin: 0 auto;
+}
+/*btn-blank样式*/
+.btn-blank:hover,.btn-blank:active{
+	background-color: red;
+	color: rgb(255,255,255);
+	border: 0;
+	border-radius: 5px;
+}
+
+.text-center{
+	text-align: center;
+}
